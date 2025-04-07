@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Button, Vibration } from 'react-native';
 import moment from 'moment';
 import axios from 'axios';
 
-const API_URL = 'https://harith-sucxr.ondigitalocean.app/getdata';
+const API_URL = 'https://harith-xts3l.ondigitalocean.app/getdata';
 
 const HomePage = ({ navigation }) => {
   const [currentTime, setCurrentTime] = useState(moment().format('hh:mm:ss A'));

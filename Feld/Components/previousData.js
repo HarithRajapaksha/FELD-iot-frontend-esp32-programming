@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import moment from 'moment';
 import axios from 'axios';
 
-const API_URL = 'https://harith-sucxr.ondigitalocean.app/getdata';
+const API_URL = 'https://harith-xts3l.ondigitalocean.app/getdata';
 
 const PreviousData = ({ navigation }) => {
   const [last7DaysData, setLast7DaysData] = useState([]);
